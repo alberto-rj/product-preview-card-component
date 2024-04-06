@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <meta  name="author" content="Frontend Mentor">
+  <meta 
+    name="title" 
+    content="Frontend Mentor | Product preview card component"
+  />
+  <meta 
+    name="description" 
+    content="Frontend mentor challenge solution for: Product preview card component"
+  />
+  <meta 
+    name="keywords" 
+    content="Frontend-Mentor, Coding, Challenge, Frontend, Newbie, HTML, CSS" 
+  /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <!-- Fonts -->
+  <!-- Montserrat -->
+  <link 
+    rel="preload" as="font" type="font/woff2" crossorigin 
+    href="assets/fonts/Montserrat.woff2"
+  />
+  <!-- Frances -->
+  <link 
+    rel="preload" as="font" type="font/woff2" crossorigin 
+    href="assets/fonts/Fraunces.woff2"
+  >
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+  <main class="wrapper">
+    <div class="card">
+      <div class="image-wrapper">
+        <picture>
+          <source 
+            media="(min-width: 48rem)" 
+            srcset="assets/images/product-desktop-267x400.jpg"
+          />
+          <img 
+            src="assets/images/product-mobile-282x197.jpg" 
+            alt="A perfume bottle on the floor" 
+            width="282" 
+            height="197"
+          />
+        </picture>
+      </div>
+      <div class="content-wrapper">
+        <p class="perfume">Perfume</p>
+        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <span class="new-price">$149.99</span>
+          <span class="old-price">$169.99</span>
+        </div>
+        <a class="btn" href="#">
+          <span 
+            aria-hidden="true"
+            class="btn-icon"
+          >
+          </span>
+          <span class="btn-text">
+            Add to Cart
+          </span>
+        </a>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/alberto-rj" target="_blank">Alberto Raúl José</a>.
+    </p>
+  </footer>
+</body>
+</html>
