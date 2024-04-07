@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-product-card-WH1axSLd41)
+- [Live Site](https://alberto-rj.github.io/product-preview-card-component/)
 
 ## My process
 
@@ -45,7 +45,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
